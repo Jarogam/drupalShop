@@ -1,0 +1,132 @@
+/* General container */
+.layout-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* // Styles for products  */
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.products-wrapper .product-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 33%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products-wrapper nav {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.products-wrapper .views-exposed-form {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.views-exposed-form .form-item {
+    margin: 0 5px;
+}
+
+input#edit-submit-products {
+    background: rgba(255, 0, 0, 0.589);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+.products-wrapper nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.product-item .views-field-field-image {
+    order: 1;
+}
+
+.product-item .views-field-title {
+    margin-bottom: 10px;
+    order: 2;
+}
+
+.product-item .views-field-title a {
+    color: #272727;
+    text-decoration: none;
+}
+
+.product-item .views-field-field-price {
+    color: rgb(238, 59, 59);
+    order: 3;
+}
+
+li.pager__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+    border: 1px solid #cbcbcb;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+
+select.form-select,
+select.form-select {
+    background: #fff;
+    padding: 8px 16px;
+    border: 1px solid #cbcbcb;
+}
+
+li.pager__item a {
+    text-decoration: none;
+    color: #000;
+}
+
+li.pager__item.is-active {
+    background: rgba(255, 0, 0, 0.589);
+    border: unset;
+}
+
+li.pager__item.is-active a {
+    color: #fff;
+}
+
+.pager__item.pager__item--first,
+.pager__item.pager__item--last {
+    width: auto;
+}
+
+span.fieldset-legend {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.fieldset-wrapper .form-item {
+    margin: 15px 0;
+}
+
+.js-form-item input[type="radio"] {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #999; 
+    border-radius: 4px; 
+    outline: none; 
+  }
+
+  .js-form-item input[type="radio"]:checked {
+    background-color: rgba(255, 0, 0, 0.589);
+  }

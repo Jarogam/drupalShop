@@ -1,0 +1,16 @@
+name: 'jeanshop'
+type: theme
+base theme: stable9
+description: 'Custom subtheme - jeanshop based on Stable9.'
+core_version_requirement: ^9
+
+libraries:
+  - jeanshop/global-styling
+
+regions:
+  header: 'Header'
+  primary_menu: 'primary_menu'
+  breadcrumb: 'breadcrumb'
+  content: 'Content'
+  sidebar: 'sidebar'
+  footer: 'Footer'
