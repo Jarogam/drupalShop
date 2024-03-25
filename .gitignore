@@ -12,5 +12,5 @@
 /vendor/
 
 # Ignore Composer dependencies
-/composer.json
-/composer.lock
+# /composer.json
+# /composer.lock
